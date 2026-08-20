@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="site-shell">
@@ -21,6 +23,9 @@ export default function Home() {
             <a className="btn btn-secondary" href="#how-it-works">
               How It Works
             </a>
+            <Link className="btn btn-secondary" href="/rules">
+              Rules
+            </Link>
           </div>
           <p className="tiny-note">
             Replace the download URL with your iOS/App Store or Android/Play
